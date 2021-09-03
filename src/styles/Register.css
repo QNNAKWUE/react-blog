@@ -1,0 +1,43 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60vh;
+    border-radius: 40px; 
+    border: 2px solid white;
+    margin: auto;
+}
+h1{
+    color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.input{
+    height: 40px;
+    width: 90%;
+    margin-right: 110px;
+    border-radius: 10px;  
+}
+label :hover{
+    color: skyblue;
+}
+.button{
+    width: 80% !important;
+    padding: 10px;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: skyblue;
+}

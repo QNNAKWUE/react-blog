@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: sticky !important;
+    top: 0;
+    color: skyblue; 
+    font-size: 20px;
+}
+.navbar h2{
+    margin-left: 130px;
+    margin-top: 35px;
+}
+.navbar .navbar__list {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 1100px;
+    margin-bottom: 500px;
+    text-decoration: none;
+    color: white; 
+}
+.navbar__list ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.navbar__list li{
+    list-style: none;
+}
+.navbar__list a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
