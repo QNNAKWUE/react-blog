@@ -1,10 +1,11 @@
 import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import CreatePost from './Components/CreatePost';
 import AllPost from './Components/AllPost';
-import Navbar from './Components/Navbar';
+import NotFound from './Components/NotFound';
 
 function App() {
   return (
@@ -31,6 +32,11 @@ function App() {
 
           <Route exact path='/AllPost' component={AllPost}>
             <AllPost />
+          </Route>
+
+          <Route component=
+            {NotFound}>
+
           </Route>
 
           
