@@ -2,6 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.home__header{
+    width: 100%;
+    height: 100px;
+    position: sticky !important;
+    top: 0;
+    color: skyblue; 
+    font-size: 20px;
+}
+.home__header h2{
+    margin-left: 130px;
+    margin-top: 35px;
+}
+.home__headerList {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 1100px;
+    margin-bottom: 500px;
+    text-decoration: none;
+    color: white; 
+}
+.home__headerList ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.home__headerList li{
+    list-style: none;
+}
+.home__headerList a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
 } 
 .home__image{
     width: 70%;
